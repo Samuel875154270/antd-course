@@ -6,6 +6,10 @@ let routes = [
     {
         path: '/c',
         component: './content',
+    },
+    {
+        path: '/my',
+        component: './MyComponent',
     }
 ];
 
