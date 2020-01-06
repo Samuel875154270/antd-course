@@ -19,6 +19,10 @@ let routes = [{
             ]
         },
         {
+            path: 'puzzlecards',
+            component: './puzzlecards',
+        },
+        {
             path: 'content',
             component: './content',
         },
