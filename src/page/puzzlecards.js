@@ -45,7 +45,6 @@ export default class PuzzleCardsPage extends Component {
             <div>
                 {
                     this.props.cardList.map(card => {
-                        console.log(card.id);
                         return (
                             <Card key={card.id}>
                                 <div>Q: {card.setup}</div>
