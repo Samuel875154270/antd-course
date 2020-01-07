@@ -1,4 +1,5 @@
-import routes from "./routes";
+import routes from './routes';
+import host from './customized';
 
 export default {
     routes: routes,
@@ -9,4 +10,10 @@ export default {
         }],
     ],
     singular: true,
+    proxy: {
+        '/dev': {
+            target: host,
+            changeOrigin: true,
+        }
+    }
 };
