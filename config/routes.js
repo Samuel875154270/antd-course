@@ -3,6 +3,10 @@ const routes = [{
     component: '../layout',
     routes: [
         {
+            path: 'list',
+            component: '../page/list'
+        },
+        {
             path: '/',
             component: './HelloWorld',
         },
