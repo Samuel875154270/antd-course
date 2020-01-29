@@ -8,10 +8,10 @@ const routes = [{
         },
         {
             path: '/',
-            component: './HelloWorld',
+            component: './index',
         },
         {
-            path: 'helloworld',
+            path: '/helloworld',
             component: './HelloWorld',
         },
         {
